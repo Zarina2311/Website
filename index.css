@@ -55,4 +55,5 @@ li a {
 li a:hover {
     background-color: rgb(247, 172, 11, 0.884);
     text-decoration:none;
+    color: #FFFFFF;
   }
