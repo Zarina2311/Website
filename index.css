@@ -1,0 +1,61 @@
+/*Background color of the web page*/
+body {
+    background-color: rgba(247, 172, 11, 0.884);
+    }
+
+/*Styling for the header*/
+h1 {
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    color:rgb(248, 245, 245);
+    margin: 35px;
+    margin-bottom: 0;
+    margin-top: 15px;
+   }
+
+/*Styling for the image*/
+img {
+    float: right;
+    
+    padding-right: 90px;
+  }
+
+  /*Styling for the text*/   
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color:rgb(241, 246, 248); 
+    margin-left: 40px;
+    margin-top: 30px;   
+    width: 650px;
+  }
+
+
+  .nav-front-page ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255); 
+  }
+
+ 
+  .nav-front-page li{
+    float:right;
+}
+
+
+li a {
+    display: block;
+    color: rgba(228, 158, 7, 0.959);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  
+  /* Change the link color to white on hover */
+  li a:hover {
+    background-color: rgb(247, 172, 11, 0.884);
+    text-decoration:none;
+  }
