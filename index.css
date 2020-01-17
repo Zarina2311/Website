@@ -8,7 +8,7 @@ h1 {
     font-size: 60px;
     font-family: 'Pacifico', cursive;
     color:rgb(248, 245, 245);
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 0;
     margin-top: 40px;
    }
@@ -22,13 +22,15 @@ img {
   /*Styling for the text*/   
 p {
     font-family: 'Poiret One', cursive;
-    font-size: 25px;
+    font-size: 20px;
     color:rgb(241, 246, 248); 
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 40px;   
     width: 650px;
+    font-weight: bold;
   }
 
+  /*Styling Navbar*/
 .nav-front-page ul {
     list-style-type: none;
     margin: 0;
@@ -41,6 +43,7 @@ p {
     float:right;
 }
 
+/*Navbars block, after hover, coloring*/
 li a {
     display: block;
     color: rgba(228, 158, 7, 0.959);
@@ -50,7 +53,6 @@ li a {
     
   }
 
-  
 /* Change the link color to white on hover */
 li a:hover {
     background-color: rgb(247, 172, 11, 0.884);
