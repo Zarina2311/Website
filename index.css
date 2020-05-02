@@ -8,19 +8,17 @@ html {
 }
 
 body {
+  background: url(images/portfolio-yellow-photo-full.jpg)
+    calc(6rem + 2rem + 50vw) bottom / 35vw no-repeat fixed;
   background-color: rgba(247, 172, 11, 0.884);
   font-size: 1.6rem; /* set body font size to 16px */
+  overscroll-behavior: none;
 }
 
 .wrapper {
   max-width: 120rem;
   margin: auto;
   padding: 8rem 6rem 0;
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: space-between;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 4rem;
 }
 
 h1 {
@@ -31,15 +29,28 @@ h1 {
   white-space: nowrap;
 }
 
-.photo {
-  max-width: 100%;
-  align-self: end;
-}
-
 p {
   font-family: "Poiret One", Verdana;
-  font-size: 1.3em;
+  font-size: 1em;
   color: rgb(241, 246, 248);
   font-weight: bold;
   margin-bottom: 2em;
+  width: calc(60vw - 2 * 6rem);
+  max-width: 60rem;
+}
+
+@media (min-width: 800px) {
+  p {
+    font-size: 1.6vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-size: 420px;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
 }
