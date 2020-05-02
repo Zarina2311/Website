@@ -1,61 +1,45 @@
-/*Background color of the web page*/
+* {
+  -webkit-font-smoothing: antialiased; /* font rendering */
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* set 1rem = 10px, respective of user custom styles */
+}
+
 body {
   background-color: rgba(247, 172, 11, 0.884);
+  font-size: 1.6rem; /* set body font size to 16px */
 }
 
-/*Styling for the header*/
+.wrapper {
+  max-width: 120rem;
+  margin: auto;
+  padding: 8rem 6rem 0;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4rem;
+}
+
 h1 {
-  font-size: 60px;
-  font-family: "Pacifico", cursive;
+  font-size: 3.75em;
+  font-family: "Pacifico", Verdana;
   color: rgb(248, 245, 245);
-  margin-left: 70px;
-  margin-bottom: 0;
-  margin-top: 40px;
+  margin-bottom: 0.5em;
+  white-space: nowrap;
 }
 
-/*Styling for the image*/
-img {
-  float: right;
-  padding-right: 75px;
+.photo {
+  max-width: 100%;
+  align-self: end;
 }
 
-/*Styling for the text*/
 p {
-  font-family: "Poiret One", cursive;
-  font-size: 20px;
+  font-family: "Poiret One", Verdana;
+  font-size: 1.3em;
   color: rgb(241, 246, 248);
-  margin-left: 90px;
-  margin-top: 40px;
-  width: 650px;
   font-weight: bold;
-}
-
-/*Styling Navbar*/
-.nav-front-page ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(247, 172, 11, 0.884);
-}
-
-/*Moving NavBar tabs to the right*/
-.nav-front-page li {
-  float: right;
-}
-
-/*Navbars block, after hover, coloring*/
-li a {
-  display: block;
-  color: rgba(0, 0, 0, 0.308);
-  text-align: center;
-  padding: 14px 30px;
-  text-decoration: none;
-}
-
-/* Change the link color to white on hover */
-li a:hover {
-  text-decoration: none;
-  color: rgb(247, 172, 11, 0.884);
-  background-color: #ffffff;
+  margin-bottom: 2em;
 }
